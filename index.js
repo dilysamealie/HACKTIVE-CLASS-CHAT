@@ -28,7 +28,7 @@ app.post('/api/chat', async (req, res) => {
         res.status(500).json({ error: 'Terjadi kesalahan pada server.' });
     }
 });
-
+// oke edit
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
